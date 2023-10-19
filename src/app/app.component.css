@@ -1,0 +1,40 @@
+/* Modern form container */
+.modern-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  /* CSS Grid for form fields */
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+  }
+  
+  /* Style for grid items */
+  .grid-item {
+    width: 100%;
+    margin: 8px 0;
+  }
+  
+  /* Full-width button */
+  .full-width {
+    grid-column: 1 / -1; /* Span all columns */
+  }
+  
+  /* Style for labels */
+  .mat-label {
+    font-weight: bold;
+  }
+  
+  /* Style for error messages */
+  .mat-error {
+    color: #d9534f;
+    font-size: 14px;
+    margin-top: 4px;
+  }
+  
